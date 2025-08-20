@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>JHON EDINSON HOLGUIN</h1>
-        <img src="imagenes/Foto.jpg" alt="Foto" width="150">
+    <header class="cabecera">
+        <h1>HOJA DE VIDA</h1>
+        <img class="fotografia"   src="imagenes/Foto.jpg" alt="Foto" width="150">
+        <h3> <i> <strong>Jhon Edinson Holguin</strong></i></h3>
         <h3> <i> <strong> Email :</strong> jeholguinz@gmail.com</i></h3>
         <h3> <i> <strong>Celular:</strong> 3122178443</i></h3>
     </header>
      <nav>
-        <h2>Indice</h2>
-        <ul>
-            <li> <a href="#perfil">Perfil profesional</a> </li>
-            <li> <a href="#educacion">Educacion</a></li>
-            <li> <a href="#experiencia">Experiencia Laboral</a></li>
-            <li> <a href="#contactame"> Contactarme</a></li>
+        <ul class="navegacion">
+            <li class="navegacion_item"> <a href="#perfil">Perfil profesional</a> </li>
+            <li class="navegacion_item"> <a href="#educacion">Educacion</a></li>
+            <li class="navegacion_item"> <a href="#experiencia">Experiencia Laboral</a></li>
+            <li class="navegacion_item"> <a href="#contactame"> Contactarme</a></li>
         </ul>
     </nav>
 
-    <section id="perfil">
+    <section class="perfil_profesional" id="perfil">
             <h2> Perfil profesional</h2>
             <p>
                 Ingeniero en electrónica graduado de la institución universitaria Antonio José Camacho con especialización en gerencia de proyectos, con experiencia en coordinación, planeación y dirección de los procesos de mantenimiento generando optimización de los recursos económicos, físicos y humanos.
@@ -35,7 +36,7 @@
                 Capaz de generar valor agregado a la organización mediante creación de ideas e iniciativa propia para la resolución de problemas.
             </p>
     </section>
-    <section id="educacion">
+    <section  class="estudios" id="educacion">
             <h1>
                 Educación 
             </h1>
@@ -87,7 +88,7 @@
                 </li> 
             </ul>
     </section>
-     <section id="experiencia">
+     <section  class="experiencia_laboral" id="experiencia">
         <h1>
             Experiencia laboral
         </h1>
@@ -141,8 +142,8 @@
         <br>
         <hr>
     </section>
-    <h2> Contactarme</h2>
-    <section id="contactame">
+    <section class="contacto" id="contactame">
+        <h2> Contactarme</h2>
         <form action="">
             <p>
                 <label for="Nombre">
